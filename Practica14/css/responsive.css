@@ -1,0 +1,35 @@
+body{
+    margin: 0; /*elimina cualquier espacio en blanco*/
+    font-family: Arial, Helvetica, sans-serif;/* define la fuente que se utilizará
+     para el texto dentro del elemento*/
+    background-color: #000; /*establece el color de fondo del elemento en negro */
+    width: 100%; /*establece el ancho del elemento */
+    height: 100%; /*establece la altura del elemento*/
+}
+.heder{
+    text-align: center; /* centra el texto dentro del elemento */
+    padding: 10px;/*  proporciona un espacio entre el contenido y el borde del elemento. */
+    width: 100%; /*  Establece el ancho del elemento */
+    background-color: #f8f9fa; /* el color de fondo del elemento  */
+    position: fixed; /* establece la posición del elemento como fija  */
+    top: 0; /* coloca el elemento en la parte superior de la ventana del navegador */
+    font-size: 2vh;  /* Establece el tamaño de la fuente del texto dentro del elemento */
+}
+
+
+.content{
+    margin: 10px; /* establece un margen alrededor del elemento*/
+    align-items: center; /* aplica a contenedores flexibles y alinea los 
+    elementos hijos a lo largo del eje transversal */
+    align-content:center;/*  alinea el contenido del contenedor a lo largo del eje transversal.*/
+}
+.content img{
+    max-width: 100%; /*  define la anchura máxima que puede tener un elemento.*/
+    margin-top: 90px; /* establece el margen superior de un elemento.*/
+}
+.footer{
+    text-align: center;/*  centra el texto dentro del elemento*/
+    padding: 10px; /*  agrega un espacio de relleno*/
+    background-color: #f8f9fa;/*  establece el color de fondo del elemento*/
+    bottom: 0; /* posiciona el elemento en la parte inferior del contenedor padre. */
+}
